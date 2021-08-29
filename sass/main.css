@@ -282,11 +282,13 @@ p {
 }
 
 .footer__logo img {
+  margin-top: 10px;
   width: 25%;
   max-width: 200px;
 }
 
 .footer__list {
+  margin-top: 12px;
   list-style-type: none;
   padding: 0;
 }

@@ -13,11 +13,13 @@
     &__logo {
         filter: invert(1);
         img {
+            margin-top: 10px;
             width: 25%;
             max-width: 200px;
         }
     }
     &__list {
+        margin-top: 12px;
         list-style-type: none;
         padding: 0;
         a {
