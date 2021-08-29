@@ -2,6 +2,7 @@
 @import "../utils/mixins";
 
 /* Select button */
+
 .btn-select {
     text-align: center;
     display: inline-block;
@@ -10,7 +11,7 @@
     border-radius: 25px;
     padding: 15px 10px;
     margin: 30px 0px;
-    width: 180px;
+    width: 240px;
     @include linear-gradient;
     @include box-shadow-lighter;
     transition: all 600ms;
@@ -21,13 +22,14 @@
     }
 }
 
+
 /* Like button */
+
 .like {
     font-size: 24px;
     cursor: pointer;
     margin: 10px;
     font-weight: bold;
-
     &__btn:focus {
         @include linear-gradient;
         background-clip: border-box;
