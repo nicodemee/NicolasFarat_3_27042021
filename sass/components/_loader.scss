@@ -1,7 +1,9 @@
 @import "../utils/variables";
+
 /* Loader */
+
 .loader {
-    background: $color-white;
+    background: $color-black;
     margin: auto;
     position: fixed;
     top: 0;
@@ -11,7 +13,6 @@
     z-index: 20;
     animation: loader 1.7s linear;
     visibility: hidden;
-
     &__bubblings {
         text-align: center;
         width: auto;
@@ -29,7 +30,6 @@
         animation: loader 1.7s linear;
         visibility: hidden;
     }
-    
     &__bubbles {
         width: 6px;
         height: 6px;
@@ -41,29 +41,32 @@
 }
 
 #bubbling_1 {
-	animation-delay: 0s;
+    animation-delay: 0s;
 }
+
 #bubbling_2 {
-	animation-delay: 0.15s;
+    animation-delay: 0.15s;
 }
+
 #bubbling_3 {
-	animation-delay: 0.30s;
+    animation-delay: 0.30s;
 }
 
 @keyframes bubbling {
-	0% {
-		width: 6px;
-		height: 6px;
-		background-color:$color-primary;
-		transform: translateY(0);
+    0% {
+        width: 6px;
+        height: 6px;
+        background-color: $color-primary;
+        transform: translateY(0);
     }
-	100% {
-		width: 15px;
-		height: 15px;
-		background-color:$color-secondary;
-		transform: translateY(-13px);
-	}
+    100% {
+        width: 15px;
+        height: 15px;
+        background-color: $color-secondary;
+        transform: translateY(-13px);
+    }
 }
+
 @keyframes loader {
     0% {
         visibility: visible;

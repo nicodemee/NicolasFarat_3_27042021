@@ -1,5 +1,5 @@
 Projet Open Classrooms numéro 3.
 
-Création d'anmiations CSS, utilisation de SASS, site web dynamique
+Création d'anmiations CSS, utilisation de SASS, pattern 7.1, site web dynamique
 
-Ohmyfood'
+Ohmyfood
