@@ -1,0 +1,23 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+/* Header */
+.header {
+    background-color: $color-white;
+    padding: 15px;
+    @include box-shadow-lighter;
+
+    &__logo {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 50%;
+            max-width: 300px;
+        }
+    }  
+}   

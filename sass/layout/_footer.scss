@@ -1,0 +1,41 @@
+@import "../utils/mixins";
+
+/* Footer */
+.footer {
+    background-color: #353535;
+    margin:0;
+    padding: 20px;
+    text-align: left;
+    
+    @include tablet {
+        text-align: center;
+    }
+
+    &__logo {
+        filter: invert(1);
+
+        img{
+            width: 25%;
+            max-width: 200px;
+        }
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+
+        a{
+            color: white;
+            font-size: 12px;
+
+            .fa-utensils{
+                margin-right: 10px;
+            }
+
+            .fa-hands-helping{
+                margin-right: 8px;
+                font-size: 10px;
+            }
+        }
+    }
+}
